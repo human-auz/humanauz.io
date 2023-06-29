@@ -1,0 +1,74 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.navfa{
+    display: flex;
+    justify-content: space-between;
+}
+.navcenter{
+    flex-grow: 0;
+}
+
+
+/* card */
+.card-image{
+    width : 80px;
+    height: 80px;
+    margin-bottom: 10px;   
+}
+.card,.formin{
+    background-color: #F5F6FA;
+    border: none;
+}
+.card-body{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+/* main */
+.mainpage{
+    background-color: #FFFFFF;
+     
+}
+
+.another-link{
+    padding: 0;
+}
+.che-root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-bottom{
+display: flex;
+justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+.map-shadow{
+    box-shadow: 0px 20px 20px rgba(245,246,250,1);
+} 
+
+p {
+    font-size: 0.875em; /* 14px/16=0.875em */
+  }
+   
+.formsa::placeholder{
+    opacity: 0.5;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+
+
+
+
+
